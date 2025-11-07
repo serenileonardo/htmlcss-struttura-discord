@@ -21,7 +21,7 @@
     padding: 20px 0;
     justify-content: center;
     margin: 0 auto;
-    
+
 }
 
 .navbar {
@@ -38,7 +38,9 @@
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 40px;
 }
 
 .blue-section {
@@ -54,4 +56,100 @@
     height: 330px;
     width: 600px;
     background-color: palevioletred;
+    border: dashed 1px;
+}
+
+.white1-section {
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+
+
+
+
+}
+
+.second-section1 {
+    height: 330px;
+    width: 70%;
+    background-color: rgb(9, 117, 199);
+    display: flex;
+    border: dashed 1px;
+
+}
+
+.second-section2 {
+    height: 330px;
+    width: 30%;
+    background-color: rgb(229, 82, 209);
+    display: flex;
+    border: dashed 1px;
+}
+
+.grey1-section {
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    background-color: rgb(157, 155, 155);
+}
+
+.third-section2 {
+    height: 330px;
+    width: 70%;
+    background-color: rgb(13, 38, 202);
+    display: flex;
+    border: dashed 1px;
+}
+
+.third-section {
+    height: 330px;
+    width: 30%;
+    background-color: rgb(234, 101, 221);
+    display: flex;
+    border: dashed 1px;
+
+}
+
+.white2-section {
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+
+.fourth-section {
+    height: 330px;
+    width: 70%;
+    background-color: rgb(9, 117, 199);
+    display: flex;
+    border: dashed 1px;
+}
+
+.fourth-section2 {
+    height: 330px;
+    width: 30%;
+    background-color: rgb(229, 82, 209);
+    display: flex;
+    border: dashed 1px;
+}
+
+.grey2-section {
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    background-color: rgb(157, 155, 155);
+}
+
+.five-section {
+    height: 530px;
+    width: 800px;
+    background-color: rgb(8, 127, 45);
+    border: dashed 1px;
 }
