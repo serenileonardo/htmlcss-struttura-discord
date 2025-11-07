@@ -132,24 +132,88 @@
 
 .fourth-section2 {
     height: 330px;
-    width: 30%;
-    background-color: rgb(229, 82, 209);
-    display: flex;
-    border: dashed 1px;
-}
+        width: 30%;
+        background-color: rgb(229, 82, 209);
+        display: flex;
+        border: dashed 1px;
+    }
+    
+    .grey2-section {
+        height: 700px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 10%;
+        background-color: rgb(157, 155, 155);
+    }
+    
+    .five-section {
+        height: 530px;
+        width: 800px;
+        background-color: rgb(8, 127, 45);
+        border: dashed 1px;
+    }
+    
+    .footer-1 {
+        height: 330px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 15%;
+        background-color: rgb(30, 30, 30);
+        margin-bottom: 1px;
+        flex-wrap: nowrap;
 
-.grey2-section {
-    height: 700px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 10%;
-    background-color: rgb(157, 155, 155);
-}
+    }
+    
+    .pink-first-footer {
+        height: 330px;
+        padding-bottom: 39%;
+        width: 25%;
+        background-color: rgb(207, 124, 199);
+        display: flex;
+        border: dashed 1px;
+    }
+    
+    .azul-footer {
+    
+        height: 330px;
+        width: 15%;
+        background-color: rgb(36, 176, 176);
+        display: flex;
+        border: dashed 1px white;
+        padding-bottom: 39%;
+    }
 
-.five-section {
-    height: 530px;
-    width: 800px;
-    background-color: rgb(8, 127, 45);
-    border: dashed 1px;
-}
+    .footer-2 {
+         height: 50px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 3%;
+        background-color: rgb(47, 46, 46);
+        flex-wrap: nowrap;
+    }
+
+    .nav-footer {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 800px;
+        padding: 2%;
+    }
+
+    .button-container {
+        background-color: yellowgreen;
+        border: dashed 1px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: ;
+
+    }
+
+    .button {
+         background-color: yellowgreen;
+    }
